@@ -42,6 +42,7 @@ void loop() {
     delay(500);                       // wait for a second
     digitalWrite(9, LOW);    // turn the LED off by making the voltage LOW
     delay(500);                       // wait for a second
+    Serial.print("g");
     Serial.println(steps);
   }
   delay(minStepInterval);
