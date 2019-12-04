@@ -16,7 +16,7 @@ int fadeAmount = 5;    // how many points to fade the LED by
 int x;
 int y;
 int z;
-
+int n;
 void setup(void) {
    Serial.begin(9600);   // initialize serial communication
 
@@ -40,18 +40,27 @@ void loop() {
   z = accelerometer.z;
 
 // Uncomment and test with different /n 
-//  x = x/100;
-//  y = y/100;
-//  z = z/100;
-   
-  if (( 3 < x < 10 || -15 < x < -2) & (1 < y < 6 || -9 < y < -2) & (5 < z < 25 || -15 < z < -2))
+
+//  n = 500;
+//  x = x/n;
+//  y = y/n;
+//  z = z/n;
+  
+//  Serial.println("xyz values");
+//  
+//  Serial.println(x);
+//  Serial.println(y);
+//  Serial.println(z);
+ 
+  if (( 30 < x && x < 160) && ( -1600 < y && y < 1800) && (1500 < z && z < 16000))
+  {Serial.println("0");}
+  else if (( -500 < x && x < 1000) && ( -2400 < y && y < 4000) && (4000 < z && z < 20000))
   {Serial.println("1");}
-  else if (( 7 < x < 30 || -30 < x < -7) & (2 < y < 15 || -20 < y < -4) & (14 < z < 40 || -25 < z < -9))
+  else if (( -3000 < x && x < 2000) && ( -3000 < y && y < 6000) && (5000 < z && z < 25000))
   {Serial.println("2");}
-  else if (( 25 < x < 50 || -50 < x < -25) & (2 < y < 15 || -35 < y < -12) & (5 < z < 45 || -4 < z < -31))
+  else
   {Serial.println("3");}
-  
-  
-  delay(minStepInterval);
+ 
+  delay(500);
   
 }
