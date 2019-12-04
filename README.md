@@ -9,7 +9,7 @@ This project was inspired by the traditional ghungroos often used in forms of In
 ## Design
 We began creating several iterations of paper prototypes, and we explored creating living hinges on paper and cardboard, as shown below. We were aiming to use this material as the prototype anklet. 
 ![Prototype 1](/images/FirstAttempt.jpg)
-![Prototype 2[(/images/SecondAttempt.jpg)
+![Prototype 2](/images/SecondAttempt.jpg)
 
 After playing around with more versions of living hinges, we found one that worked for us, and was able to support the first version of our circuit:
 
