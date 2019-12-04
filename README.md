@@ -12,6 +12,7 @@ We began creating several iterations of paper prototypes, and we explored creati
 ![Prototype 2[(/images/SecondAttempt.jpg)
 
 After playing around with more versions of living hinges, we found one that worked for us, and was able to support the first version of our circuit:
+
 ![Prototype 3](/images/ThirdAttempt_1.jpg)
 ![Prototype 3 Worn](/images/ThirdAttempt_2.jpg)
 
