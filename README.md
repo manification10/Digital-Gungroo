@@ -20,10 +20,12 @@ After playing around with more versions of living hinges, we found one that work
 For the first step for our circuit, we created a form of a pedometer using the accelerometer. We used the acceleration measured on the y axis to determine whether someone was taking a footstep. Below is an image of the circuit:
 ![First Circuit](/images/AccelerometerCircuit.jpg)
 
-From here, we created a bash script to run every time a footstep was detected, and play the sound of the ghungroo bells. Below is a video of our first working prototype with sound:/
+From here, we created a bash script to run every time a footstep was detected, and play the sound of the ghungroo bells. Below is a video of our first working prototype with sound:
+
 [See Video Here](https://drive.google.com/open?id=1kgregFIQAMCG6QkecJbtPY6cUl8rYSMW)
 
 We then began working with light, and wanted to create three layers of lights that would respond to movements on the different axes. Below is a video using the LEDs in combination with the accelerometer:
+
 [See Video Here](https://drive.google.com/file/d/1_J5kBKLptu_eg036MyOKKOaFNdn7jq2I/view?usp=sharing)
 
 We are currently working with the HC-05 bluetooth modules and an LED lightstrip to combine thesee individual working elements into one coherent design. 
