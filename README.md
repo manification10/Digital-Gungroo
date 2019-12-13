@@ -24,11 +24,11 @@ The delay we had programmed into the Arduino caused the audio to be less realist
 
 We then decided to use RGB LED strips for the anklet, one strip for each row. Instead of having each row respond to movement in one axis, we wired these so that for each strip received either the R, G or B values from either the X, Y or Z axis. This way the colors for each row were always different, and would never be switched off. 
 
-The last step in putting this circuit together was connecting a bluetooth module in order to have the sound play through the laptop. We used an HC-05 module, which sent the accelerometer data to the laptop. The code on the Arduino would measure different "click thresholds" from the accelerometer and bucket them into either group 1, 2 or 3 based on how fast the user moved their foot. This would then be printed on the Serial Monitor. \
+The last step in putting this circuit together was connecting a bluetooth module in order to have the sound play through the laptop. We used an HC-05 module, which sent the accelerometer data to the laptop. The code on the Arduino would measure different "click thresholds" from the accelerometer and bucket them into either group 1, 2 or 3 based on how fast the user moved their foot. This would then be printed on the Serial Monitor. 
 
 [Final Arduino Code](https://github.com/manification10/Digital-Gungroo/blob/master/Light_and_Sound.ino)
 
-Instead of the bash script, we switched to Python to make use of their Threading library. This helped significantly reduce the lag on the audio, and allowed multiple bells to go off at once based on the different movements. This new script read the values of 1, 2, or 3 from the bluetooth serial port and played the audio files accordingly. \
+Instead of the bash script, we switched to Python to make use of their Threading library. This helped significantly reduce the lag on the audio, and allowed multiple bells to go off at once based on the different movements. This new script read the values of 1, 2, or 3 from the bluetooth serial port and played the audio files accordingly. 
 
 [Final Python Code](https://github.com/manification10/Digital-Gungroo/blob/master/audio_thread.ipynb)
 
@@ -37,6 +37,7 @@ Instead of the bash script, we switched to Python to make use of their Threading
 As mentioned above, the design was critical since these anklets are often used as part of a costume. We wanted it to be comfortable and wearable, while still having a stage presence. 
 
 We began creating several iterations of paper prototypes, and we explored creating living hinges on paper and cardboard, as shown below. We were aiming to use this material as the prototype anklet. 
+
 ![Prototype 1](/images/FirstAttempt.jpg)
 ![Prototype 2](/images/SecondAttempt.jpg)
 
