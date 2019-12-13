@@ -8,11 +8,11 @@ This project was inspired by the traditional anklets, *ghungroos* often used in 
 ![Traditional Ghungroo](/images/Ghungroo.jpg)
 
 ## Circuit
-For the first step for our circuit, we created a form of a pedometer using the accelerometer. We used the acceleration measured on the y axis to determine whether someone was taking a footstep. Below is the code and an image of the circuit:
-[Pedometer Code]()
+For the first step for our circuit, we created a form of a pedometer using the accelerometer. We used the acceleration measured on the y axis to determine whether someone was taking a footstep. Below is the code and an image of the circuit:\
+[Pedometer Code](https://github.com/manification10/Digital-Gungroo/blob/master/step_light_up.ino)
 ![First Circuit](/images/AccelerometerCircuit.jpg)
 
-From here, we created a [bash script]() to run every time a footstep was detected, and play the sound of the ghungroo bells. Below is a video of our first working prototype with sound:
+From here, we created a [bash script](https://github.com/manification10/Digital-Gungroo/blob/master/sound_play_from_computer.bash) to run every time a footstep was detected, and play the sound of the ghungroo bells. Below is a video of our first working prototype with sound:
 
 [See Video Here](https://drive.google.com/open?id=1kgregFIQAMCG6QkecJbtPY6cUl8rYSMW)
 
@@ -22,8 +22,8 @@ The delay we had programmed into the Arduino caused the audio to be less realist
 
 We then decided to use RGB LED strips for the anklet, one strip for each row. Instead of having each row respond to movement in one axis, we wired these so that for each strip received either the R, G or B values from either the X, Y or Z axis. This way the colors for each row were always different, and would never be switched off. 
 
-The last step in putting this circuit together was connecting a bluetooth module in order to have the sound play through the laptop. We used an HC-05 module, which sent the accelerometer data to the laptop. The code on the Arduino would measure different "click thresholds" from the accelerometer and bucket them into either group 1, 2 or 3 based on how fast the user moved their foot. This would then be printed on the Serial Monitor. 
-[Final Arduino Code]()
+The last step in putting this circuit together was connecting a bluetooth module in order to have the sound play through the laptop. We used an HC-05 module, which sent the accelerometer data to the laptop. The code on the Arduino would measure different "click thresholds" from the accelerometer and bucket them into either group 1, 2 or 3 based on how fast the user moved their foot. This would then be printed on the Serial Monitor. \
+[Final Arduino Code](https://github.com/manification10/Digital-Gungroo/blob/master/Light_and_Sound.ino)
 
 Instead of the bash script, we switched to Python to make use of their Threading library. This helped significantly reduce the lag on the audio, and allowed multiple bells to go off at once based on the different movements. This new script read the values of 1, 2, or 3 from the bluetooth serial port and played the audio files accordingly. 
 [Final Python Code]()
@@ -49,7 +49,7 @@ Once we had decided on using the LED strips, we realized that the living hinge m
 
 Since we needed a 9V battery to power the lights, we included an additional enclosure into the sleeve to allow for the battery to easily removed if it needed replacing:
 
-![Battery Enclosure]()
+![Battery Enclosure](/images/BatteryEnclosure.jpeg)
 
 ## The Final Product
 
