@@ -46,7 +46,7 @@ After playing around with more versions of living hinges, we found one that work
 ![Prototype 3](/images/ThirdAttempt_1.jpg)
 ![Prototype 3 Worn](/images/ThirdAttempt_2.jpg)
 
-Once we had decided on using the LED strips, we realized that the living hinge might not be able to showcase them in the way we wanted. We began experimenting with different fabrics, and settled on felt since we were able to laser cut it with precision. We toyed with several design ideas for how to place the lights on to the felt, such as diffusing the light with another overlayed fabric, or adding ruffles for each row. However we found that weaving the lights through the felt showcased them most efficiently and still gave it that modern look we were hoping for. 
+Once we had decided on using the LED strips, we realized that the living hinge might not be able to showcase them in the way we wanted. We began experimenting with different fabrics, and settled on felt since we were able to laser cut it with precision. We toyed with several ![design ideas](https://drive.google.com/drive/folders/1ruJxGN9MDGGIJw5tG8S9PDHqsxQbPcqV?usp=sharing) for how to place the lights on to the felt, such as diffusing the light with another overlayed fabric, or adding ruffles for each row. However we found that weaving the lights through the felt showcased them most efficiently and still gave it that modern look we were hoping for. 
 
 [See Video Here](https://youtu.be/C9pP1mGXz8A)
 
